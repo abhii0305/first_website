@@ -1,0 +1,335 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #263238;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.top-bar {
+    background-color: #102d50;
+    font-size: 14px;
+}
+
+.main-navbar {
+    background-color: #174a80;
+}
+
+.navbar-brand {
+    letter-spacing: 0.3px;
+}
+
+.nav-link {
+    margin-left: 5px;
+}
+
+.hero-section {
+    padding: 75px 0;
+    background-color: #f1f6fc;
+}
+
+.welcome-label {
+    color: #0d6efd;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero-section h1 {
+    color: #153858;
+}
+
+.campus-image-placeholder {
+    min-height: 330px;
+    background-color: #dce8f5;
+    border: 2px dashed #7c9bbd;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.quick-links-section {
+    padding: 25px 0;
+    background-color: #ffffff;
+}
+
+.quick-link {
+    display: block;
+    height: 100%;
+    padding: 20px 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #153858;
+    border: 1px solid #e0e7ef;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.quick-link:hover {
+    background-color: #eaf3ff;
+    transform: translateY(-3px);
+}
+
+.quick-link h5 {
+    font-size: 17px;
+}
+
+.quick-link p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #687786;
+}
+
+.section-padding {
+    padding: 65px 0;
+}
+
+.section-title {
+    font-weight: bold;
+    color: #153858;
+}
+
+.section-description {
+    color: #6c757d;
+    max-width: 700px;
+    margin: 12px auto 25px;
+}
+
+.light-section {
+    background-color: #f5f8fc;
+}
+
+.content-card {
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+.content-card h4 {
+    color: #174a80;
+}
+
+.content-card a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facility-card {
+    height: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+}
+
+.facility-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.facility-card h5 {
+    color: #174a80;
+}
+
+.facility-card p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.notice-card {
+    padding: 20px;
+    background-color: white;
+    border-left: 4px solid #0d6efd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.notice-card strong {
+    color: #174a80;
+}
+
+.contact-section {
+    padding: 65px 0;
+    background-color: #edf4fb;
+}
+
+.contact-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e0e7ef;
+}
+
+.contact-card h4 {
+    margin-bottom: 20px;
+    color: #174a80;
+}
+
+.contact-card a {
+    overflow-wrap: anywhere;
+}
+
+.site-footer {
+    padding: 35px 0;
+    background-color: #102d50;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.site-footer hr {
+    border-color: #aab9c9;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 45px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 34px;
+    }
+
+    .campus-image-placeholder {
+        min-height: 230px;
+    }
+
+    .section-padding,
+    .contact-section {
+        padding: 45px 0;
+    }
+}
+
+
+
+/* MPU Guide - Home Page Improvements */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #263238;
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.navbar .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #dbeafe;
+}
+
+.content-card {
+  background-color: #ffffff;
+  border: 1px solid #e8edf3;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.content-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
+}
+
+img {
+  max-width: 100%;
+}
+
+.content-card img {
+  transition: transform 0.35s ease;
+}
+
+.content-card:hover img {
+  transform: scale(1.03);
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+section {
+  scroll-margin-top: 75px;
+}
+
+.site-footer a {
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .display-5 {
+    font-size: 2rem;
+  }
+
+  section .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+
+
+/* About Page Improvements */
+
+.light-section {
+  background-color: #f1f7ff;
+}
+
+section h1,
+section h2 {
+  color: #17365d;
+}
+
+section h3 {
+  color: #245b96;
+}
+
+section img {
+  border-radius: 16px;
+}
+
+.content-card {
+  padding: 20px;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+  transition: 0.25s ease;
+}
+
+.content-card:hover {
+  transform: translateY(-4px);
+}
+
+.site-footer {
+  line-height: 1.8;
+}
